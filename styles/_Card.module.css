@@ -1,0 +1,21 @@
+.card {
+    border: none;
+    width: 350px;
+    height: 500px;
+    /* box-shadow: 0 5px 35px -2px hsl(0, 0%, 96%); */
+    border-radius: 5px;
+    padding: 0;
+    margin: 30px 30px;
+    overflow: hidden;
+    transition: ease-in-out 0.25s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 15px -12px hsl(0, 0%, 21%);
+}

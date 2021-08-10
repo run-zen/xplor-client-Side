@@ -1,0 +1,55 @@
+.dashBoard_layout {
+    height: 100vh;
+}
+
+.menu {
+    background-color: var(--primary);
+    color: var(--nav-item--color);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    box-shadow: 0 8px 20px -10px black;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-left: 80px;
+    width: calc(100% - 80px);
+}
+.header-user {
+    height: 100%;
+    width: fit-content;
+    padding: 8px 5px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    /* border: 2px solid red; */
+}
+.header-user--image {
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: fill;
+    margin-right: 20px;
+    height: 100%;
+    width: 50px;
+}
+.header-user--name {
+    height: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.brand {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+}
+.site-layout .site-layout-background {
+    background: var(--content-backgound);
+}

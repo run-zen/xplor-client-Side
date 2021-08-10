@@ -1,0 +1,120 @@
+.content {
+    min-height: 100vh;
+}
+.cardGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardImage {
+    position: relative;
+    height: 40%;
+}
+.cardImage_overlay {
+    background-color: rgb(255, 255, 255);
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 97%;
+    left: 0;
+    transform-origin: 0px;
+    transform: skewY(-10deg);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 55%;
+    z-index: 10;
+    font-size: 1.7rem;
+    text-align: end;
+    text-overflow: clip;
+    color: aliceblue;
+}
+.title span {
+    padding: 5px 10px;
+    background: linear-gradient(
+        to bottom,
+        var(--title-primary),
+        var(--title-secondary)
+    );
+    border-radius: 2px;
+    box-decoration-break: clone;
+}
+.cardInfo {
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 20px;
+    height: 40%;
+    width: 100%;
+    z-index: 12;
+}
+.cardInfo p {
+    font-style: italic;
+    font-weight: 300;
+}
+.cardInfo_details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardInfo_details .cardInfo_details_tab {
+    width: 50%;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    margin: 10px 0;
+    padding: 0 10px;
+    /* border: 1px solid black; */
+}
+.cardInfo_details .cardInfo_details_tab span {
+    color: rgb(0, 160, 13);
+    font-size: 1.2rem;
+    margin: 0 4px;
+}
+.cardFooter {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: var(--footer);
+}
+.btn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    background-color: var(--accent);
+    color: white;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 10px -5px black;
+}
+.rating span {
+    color: gold;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+.price span {
+    color: darkgreen;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+.rating,
+.price {
+    font-weight: 400;
+}

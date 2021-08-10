@@ -1,0 +1,10 @@
+:root {
+    --primary: hsl(323, 100%, 28%);
+    --secondary: hsl(323, 100%, 85%);
+    --nav-item--color: white;
+    --title-primary: hsl(340, 100%, 58%);
+    --title-secondary: hsl(290, 100%, 59%);
+    --content-backgound: hsl(0, 0%, 94%);
+    --accent: hsl(300, 79%, 41%);
+    --footer: hsl(193, 100%, 96%);
+}
