@@ -118,3 +118,23 @@
 .price {
     font-weight: 400;
 }
+
+.sectionHeader {
+    margin: 40px auto;
+    padding: 40px 30px 0 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: fit-content;
+    background-image: linear-gradient(
+        to right,
+        var(--title-primary),
+        var(--title-secondary)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    box-shadow: 0 20px 8px -15px var(--accent);
+}

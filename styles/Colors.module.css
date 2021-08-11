@@ -7,4 +7,6 @@
     --content-backgound: hsl(0, 0%, 94%);
     --accent: hsl(300, 79%, 41%);
     --footer: hsl(193, 100%, 96%);
+    --content-dark: hsl(0, 0%, 90%);
+    --header-user: hsl(327, 100%, 35%);
 }

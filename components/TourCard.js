@@ -57,7 +57,7 @@ export default function TourCard() {
                     </div>
                 </div>
                 <div className={styles.btn}>
-                    <Link href="/">Details</Link>
+                    <Link href="/tour/the-mountain-biker">Details</Link>
                 </div>
             </div>
         </CustomCard>
