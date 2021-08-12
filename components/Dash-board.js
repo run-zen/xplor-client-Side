@@ -26,11 +26,7 @@ export default function DashBoard(props) {
                         }}
                     >
                         <div className={styles.brand}>
-                            <Link
-                                href="http://localhost:3000/"
-                                replace
-                                passHref
-                            >
+                            <Link href="/" replace passHref>
                                 <Image
                                     src="/logo-red.png"
                                     width={'100%'}

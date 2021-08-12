@@ -52,6 +52,9 @@
     width: 100%;
     z-index: 12;
 }
+.cardInfo h5 {
+    text-transform: capitalize;
+}
 .cardInfo p {
     font-style: italic;
     font-weight: 300;

@@ -47,6 +47,7 @@
 }
 .header-user--name span {
     padding: 0 5px;
+    font-size: 1rem;
 }
 .brand {
     display: flex;
@@ -65,4 +66,16 @@
     /* border: 2px solid red; */
     margin: 64px 20px;
     overflow: initial;
+}
+
+@media screen and (max-width: 550px) {
+    .header-user--name {
+        font-size: 1rem;
+    }
+    .header-user--name span {
+        font-size: 0.8rem;
+    }
+    .header-user--image {
+        margin-right: 5px;
+    }
 }

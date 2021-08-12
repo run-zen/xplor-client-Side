@@ -8,9 +8,7 @@ function MyDropDown(props) {
             <Menu.Item key="0">
                 <Link href="/me">My Account</Link>
             </Menu.Item>
-            <Menu.Item key="1">
-                <Link href="/me/bookings">My Bookings</Link>
-            </Menu.Item>
+
             <Menu.Divider />
             <Menu.Item key="3">
                 <ExportOutlined />

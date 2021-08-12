@@ -1,0 +1,20 @@
+.layout {
+    margin: 50px 10%;
+    /* border: 2px solid red; */
+}
+.title {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 550px) {
+    .layout {
+        margin: 50px 2%;
+        /* border: 2px solid red; */
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .title {
+        font-size: 1.2rem;
+    }
+}

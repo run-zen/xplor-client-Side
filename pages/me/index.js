@@ -1,5 +1,6 @@
 import React from 'react';
 import CustomHead from '../../components/CustomHead';
+import CustomTabs from '../../components/CustomTabs';
 
 export default function index() {
     return (
@@ -7,7 +8,7 @@ export default function index() {
             <CustomHead>
                 <title>Xplor | My Account</title>
             </CustomHead>
-            <h1>This is my account</h1>
+            <CustomTabs />
         </div>
     );
 }

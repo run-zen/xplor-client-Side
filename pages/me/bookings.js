@@ -1,5 +1,6 @@
 import React from 'react';
 import CustomHead from '../../components/CustomHead';
+import CustomTabs from '../../components/CustomTabs';
 
 export default function bookings() {
     return (
@@ -7,7 +8,7 @@ export default function bookings() {
             <CustomHead>
                 <title>Xplor | My Bookings</title>
             </CustomHead>
-            <h1>These are my bookings</h1>
+            <CustomTabs />
         </div>
     );
 }
